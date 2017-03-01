@@ -14,3 +14,22 @@
 .mdtab-active{
 	display:block;
 }
+.mdtab-tabbtn{
+	line-height:30px;
+	height:30px;
+	width:33%;
+	color:black;
+	background-color:#EEEEEE;
+	cursor:pointer;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom:solid 1px #78909C;
+}
+.mdtab-tabchecked{
+	color:white;
+	background-color:#2196F3;
+}
+.mdtab-val{
+	overflow:auto;
+}

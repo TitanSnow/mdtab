@@ -40,6 +40,8 @@
 		prev.className="mdtab-val"
 		sour.className="mdtab-val"
 		valc.className="mdtab-valueconter"
+		prev.style.height=height-30+"px"
+		sour.style.height=height-30+"px"
 		nd.appendChild(valc)
 		valc.appendChild(edit)
 		valc.appendChild(prev)
