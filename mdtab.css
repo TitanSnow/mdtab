@@ -1,0 +1,16 @@
+.mdtab>*,.mdtab>*>*{
+	box-sizing:border-box;
+	margin:0;
+}
+.mdtab-tab{
+	height:30px;
+}
+.mdtab{
+	overflow:hidden;
+}
+.mdtab-val{
+	display:none;
+}
+.mdtab-active{
+	display:block;
+}
