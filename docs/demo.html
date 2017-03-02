@@ -34,15 +34,30 @@
 	<body>
 
 <script>
-var tab=mdtab(800,600)
-document.documentElement.appendChild(tab.element)
+var tab=mdtab(innerWidth,innerHeight)
+document.body.appendChild(tab.element)
 tab.editor.setOption("lineNumbers",true)
+onresize=function(){
+	tab.setSize(innerWidth,innerHeight)
+}
 </script>
 
 <style>
 .CodeMirror{
 	font-family:Iosevka;
 	font-size:12pt;
+}
+body{
+	margin:0;
+	padding:0;
+	border:none;
+	overflow:hidden;
+}
+.mdtab-tab{
+	display:flex;
+}
+.mdtab-tabbtn{
+	flex:1;
 }
 </style>
 

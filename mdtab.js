@@ -78,6 +78,19 @@
 			},
 			"getHTML":function(){
 				return marked(cm.getValue())
+			},
+			"setSize":function(w,h){
+				w=Number(w)
+				h=Number(h)
+				if(isNaN(w)) w=width
+				if(isNaN(h)) h=height
+				width=w
+				height=h
+				nd.style.width=width+"px"
+				nd.style.height=height+"px"
+				cm.setSize(width,height-30)
+				prev.style.height=height-30+"px"
+				sour.style.height=height-30+"px"
 			}
 		}
 	}
