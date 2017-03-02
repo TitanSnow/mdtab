@@ -15,9 +15,10 @@
 	<body>
 
 <script>
-
-document.documentElement.appendChild(mdtab(800,600).element)
-
+var tab=mdtab(800,600)
+document.documentElement.appendChild(tab.element)
+tab.editor.setOption("lineNumbers",true)
+tab.editor.setOption("tabSize",2)
 </script>
 
 	</body>

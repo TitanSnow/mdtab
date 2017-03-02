@@ -71,7 +71,7 @@
 		})
 		return {
 			"element":nd,
-			"textarea":cm
+			"editor":cm
 		}
 	}
 })(this);
