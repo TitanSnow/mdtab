@@ -68,7 +68,7 @@
 		})
 		btn_sour.addEventListener("click",function(){
 			sour.classList.add("mdtab-active")
-			sour.textContent=marked(cm.getValue())
+			sour.innerHTML=hljs.highlight("html",marked(cm.getValue()),true).value
 		})
 		return {
 			"element":nd,
