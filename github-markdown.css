@@ -700,3 +700,6 @@ THE SOFTWARE.*/
 .markdown-body hr {
   border-bottom-color: #eee;
 }
+.markdown-body{
+	padding:45px;
+}
