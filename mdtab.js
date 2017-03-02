@@ -48,7 +48,7 @@
 		valc.appendChild(prev)
 		valc.appendChild(sour)
 		var cm=CodeMirror(edit,{
-			"mode":"markdown"
+			"mode":"gfm"
 		})
 		cm.setSize(width,height-30)
 		function swch(){
