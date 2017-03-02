@@ -6,6 +6,7 @@
 		<link rel="stylesheet" href="../codemirror/lib/codemirror.css"/>
 		<link rel="stylesheet" href="../github.min.css"/>
 		<link rel="stylesheet" href="../github-markdown.css"/>
+		<link rel="stylesheet" href="font/Iosevka.css"/>
 		<link rel="stylesheet" href="../mdtab.css"/>
 		<script src="../codemirror/lib/codemirror.js"></script>
 		<script src="../codemirror/mode/markdown/markdown.js"></script>
@@ -19,8 +20,14 @@
 var tab=mdtab(800,600)
 document.documentElement.appendChild(tab.element)
 tab.editor.setOption("lineNumbers",true)
-tab.editor.setOption("tabSize",2)
 </script>
+
+<style>
+.CodeMirror{
+	font-family:Iosevka;
+	font-size:12pt;
+}
+</style>
 
 	</body>
 </html>
