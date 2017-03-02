@@ -37,7 +37,7 @@
 		var sour=document.createElement("pre")
 		var valc=document.createElement("div")
 		edit.className="mdtab-val mdtab-active"
-		prev.className="mdtab-val"
+		prev.className="mdtab-val markdown-body"
 		sour.className="mdtab-val"
 		valc.className="mdtab-valueconter"
 		prev.style.height=height-30+"px"
