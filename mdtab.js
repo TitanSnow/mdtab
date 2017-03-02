@@ -1,8 +1,9 @@
 ;(function(global,undefined){
 	"use strict"
 	marked.setOptions({
-		highlight: function (code,lang) {
-		return hljs.highlight(lang,code,true).value;
+		"highlight":function(code,lang){
+			try{return hljs.highlight(lang,code,true).value}
+			catch(err){return hljs.highlightAuto(code).value}
 		}
 	})
 	global.mdtab=function(width,height){
