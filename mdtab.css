@@ -25,6 +25,10 @@
 	border-left:none;
 	border-right:none;
 	border-bottom:solid 1px #78909C;
+	transition:background-color 100ms;
+}
+.mdtab-tabbtn:hover{
+	background-color:#BDBDBD;
 }
 .mdtab-tabchecked{
 	color:white;
