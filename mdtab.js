@@ -72,7 +72,13 @@
 		})
 		return {
 			"element":nd,
-			"editor":cm
+			"editor":cm,
+			"getMD":function(){
+				return cm.getValue()
+			},
+			"getHTML":function(){
+				return marked(cm.getValue())
+			}
 		}
 	}
 })(this);
